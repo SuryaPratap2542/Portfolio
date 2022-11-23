@@ -745,7 +745,11 @@ h3.my-profession
     width: 100%;
     display: block;
 }
-
+.online .portfolio-heading li 
+{
+    margin-top: 5px;
+    color: var(--text-black-900);
+}
 /* Contact */
 .contact-title
 {
