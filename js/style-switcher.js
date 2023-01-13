@@ -47,3 +47,20 @@ window.addEventListener("load", () => {
         dayNight.querySelector("i").classList.add("fa-moon");
         }
 })
+// function ChangeImage(filename){
+//     let img = document.querySelector("#main-img");
+
+//     img.setAttribute("src",filename);
+// }
+
+function ChangeImage()
+{
+    let img=document.getElementById("main-img");
+    if(img.src.match('images/images/img1.png')){
+        img.src="images/images/imag1.jpg"
+    }
+    else{
+        img.src="images/images/img1.png"
+    }
+
+}
