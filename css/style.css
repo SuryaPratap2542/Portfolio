@@ -298,9 +298,11 @@ ul {
 {
     color: var(--skin-color);
 }
-.aside .nav li a i
+.aside .nav li a img
 {
-    margin-right: 15px; ;
+    margin-right: 15px; 
+    height: 18px;
+    width: 18px;
 }
 
 /* Home */
