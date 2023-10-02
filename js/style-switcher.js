@@ -53,14 +53,14 @@ window.addEventListener("load", () => {
 //     img.setAttribute("src",filename);
 // }
 
-function ChangeImage()
-{
-    let img=document.getElementById("main-img");
-    if(img.src.match('images/images/img1.png')){
-        img.src="images/images/imag1.jpg"
-    }
-    else{
-        img.src="images/images/img1.png"
-    }
+// function ChangeImage()
+// {
+//     let img=document.getElementById("main-img");
+//     if(img.src.match('images/images/img1.png')){
+//         img.src="images/images/imag1.jpg"
+//     }
+//     else{
+//         img.src="images/images/img1.png"
+//     }
 
-}
+// }
